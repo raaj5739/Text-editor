@@ -1,7 +1,6 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from "react";
+import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
-
 
 export default function Nevbar(props) {
   return (
@@ -40,20 +39,21 @@ export default function Nevbar(props) {
             Dropdown
           </Link>
           <ul className="dropdown-menu"> */}
-            <li className="nav-item ">
+            {/* <li className="nav-item ">
               <Link className="nav-link active" to="https://www.facebook.com/">
                 facebook
               </Link>
-            </li>
+            </li> */}
           </ul>
           {/* <form className="d-flex" role="search">
         <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
         <button className="btn btn-outline-success" type="submit">Search</button>
       </form> */}
-          <div className={`form-check form-switch text-${
-                  props.mode === `light` ? `dark` : `light`
-                }`}
-              >
+          <div
+            className={`form-check form-switch text-${
+              props.mode === `light` ? `dark` : `light`
+            }`}
+          >
             <input
               className="form-check-input"
               onClick={props.toggleMode}
@@ -74,11 +74,11 @@ export default function Nevbar(props) {
   );
 }
 
-Nevbar.propTypes={
-        title: PropTypes.string.isRequired,
-        About: PropTypes.string
-} 
-Nevbar.defaultProps={
-title: '"hoho"',
-About:'"jojo  jojo jo"'
+Nevbar.propTypes = {
+  title: PropTypes.string.isRequired,
+  About: PropTypes.string,
+};
+Nevbar.defaultProps = {
+  title: '"hoho"',
+  About: '"jojo  jojo jo"',
 };

@@ -49,7 +49,7 @@ export default function TextForm(props) {
 
   return (
     <>
-      <div>
+      <div className="div1">
         <h1>{props.heading}</h1>
         <div className="mb-4">
           <textarea
@@ -88,7 +88,7 @@ export default function TextForm(props) {
           inverse it
         </button>
         <button
-          className="btn btn-primary mx-1 my-1"
+          className="btn1"
           disabled={text.length === 0}
           onClick={handleclearclick2}
         >
@@ -97,14 +97,14 @@ export default function TextForm(props) {
         </button>
         <button
           disabled={text.length === 0}
-          className="btn btn-primary mx-1 my-1"
+          className="btn1"
           onClick={handleExtraSpaces}
         >
           Remove Extra Spaces
         </button>
         <button
           disabled={text.length === 0}
-          className="btn btn-primary mx-1 my-1"
+          className="btn1"
           onClick={handleCopy}
         >
           Copy Text

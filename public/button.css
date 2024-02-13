@@ -7,92 +7,103 @@
         /* Green */
         color: rgb(211, 211, 211);
 }
+
 .btn {
         width: 100%;
         padding: 10px;
         background-color: #5309b3;
         color: #fff;
-        border:rgb(22, 6, 6);
+        border: rgb(22, 6, 6);
         border-radius: 0.3px;
         cursor: pointer;
         transition: background-color 3s;
 }
+
 .btnclear {
         width: 100%;
         padding: 10px;
         background-color: #5309b3;
         color: #fff;
-        border:rgb(22, 6, 6);
+        border: rgb(22, 6, 6);
         border-radius: 0.3px;
         cursor: pointer;
+        OVERFLOW: hidden;
         transition: background-color 3s;
 }
+
 .btn1:hover {
         background-color: #ca1a46;
         color: rgb(211, 211, 211);
 }
+
 .btn2:hover {
         background-color: #ca1a46;
         color: rgb(211, 211, 211);
 }
+
 .btninverse:hover {
         background-color: #ca1a46;
         color: rgb(211, 211, 211);
 }
 
- .btn1 {
-         width: 32%;
-         background-color: #4caf50;
-         border: none;
-         border-radius: 30px;
-         color: rgb(255, 255, 255);
-         padding: 15px 32px;
-         text-align: center;
-         text-decoration: none;
-         display: inline-block;
-         font-size: 16px;
-         margin: 4px 5px;
-         cursor: pointer;
-         transition: margin-right 2s ease-in-out .5s;
+.btn1 {
+        width: auto;
+        background-color: #4caf50;
+        border: none;
+        border-radius: 30px;
+        color: rgb(255, 255, 255);
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        margin: 4px 5px;
+        cursor: pointer;
+        OVERFLOW: hidden;
+        transition: margin-right 2s ease-in-out .5s;
 
- }
- .btn2 {
-         width: 32%;
-         background-color: #4caf50;
-         border: none;
-         border-radius: 30px;
-         color: rgb(255, 255, 255);
-         padding: 15px 32px;
-         text-align: center;
-         text-decoration: none;
-         display: inline-block;
-         font-size: 16px;
-         margin: 4px 2px;
-         cursor: pointer;
-         transition: margin-right 2s ease-in-out .5s;
+}
 
- }
- 
- .btninverse {
-         width: 32%;
-         background-color: #4caf50;
-         border: none;
-         border-radius: 30px;
-         color: rgb(255, 255, 255);
-         padding: 15px 32px;
-         text-align: center;
-         text-decoration: none;
-         display: inline-block;
-         font-size: 16px;
-         margin: 4px 2px;
-         cursor: pointer;
-         transition: margin-right 2s ease-in-out .5s;
+.btn2 {
+        width: 32%;
+        background-color: #4caf50;
+        border: none;
+        border-radius: 30px;
+        color: rgb(255, 255, 255);
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        OVERFLOW: hidden;
+        transition: margin-right 2s ease-in-out .5s;
 
- }
+}
+
+.btninverse {
+        width: 32%;
+        background-color: #4caf50;
+        border: none;
+        border-radius: 30px;
+        color: rgb(255, 255, 255);
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        OVERFLOW: hidden;
+        transition: margin-right 2s ease-in-out .5s;
+
+}
+
 /* Custom CSS for the Login Form */
 
 .container {
-        max-width:60%;
+        max-width: 60%;
         /* margin: 0 auto; */
         padding: 20px;
         border: 1px solid #ccc;
@@ -149,6 +160,7 @@ button.btn-primary {
 button.btn-primary:hover {
         background-color: #2980b9;
 }
+
 /* Style for the navigation bar */
 .navbar {
         background-color: #0ec6e7;
@@ -188,6 +200,7 @@ button.btn-primary:hover {
         color: white;
         /* Text color for the active link */
 }
+
 /* Style for the horizontal navigation bar */
 .navbar {
         background-color: #000000;
